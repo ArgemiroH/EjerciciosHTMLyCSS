@@ -1,0 +1,203 @@
+.miperrita{
+    padding: 5px;
+    border: 5px dashed rgb(2, 3, 3);
+    margin: 10px;
+    border-radius: 26px;
+}
+
+.parrafos{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.luna{
+    padding: 10px;
+    color: black;
+    background-color: coral;
+    margin: 10px;
+    border-radius: 40px;
+}
+
+.amigas{
+    padding: 10px;
+    background-color: turquoise;
+    margin: 10px;
+    border-radius: 40px;
+}
+
+.amigo1{
+    padding: 5px;
+    border: 5px double rgb(81, 204, 101);
+    margin: 10px;
+    border-radius: 26px;
+}
+.amigo2{
+    padding: 5px;
+    border: 5px double rgb(199, 147, 80);
+    margin: 10px;
+    border-radius: 26px;
+}
+.amigo3{
+    padding: 5px;
+    border: 5px double rgb(226, 99, 226);
+    margin: 10px;
+    border-radius: 26px;
+}
+
+.redes{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Facebook*/
+.facebook {
+    --glow-color: rgb(0, 160, 253);
+    --glow-spread-color: rgb(107, 201, 255);
+    --enhanced-glow-color: rgb(89, 192, 252);
+    --btn-color: rgb(2, 1, 3);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   .facebook::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .facebook:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   .facebook:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+   /* Instagram */
+.instagram {
+    --glow-color: rgb(255, 214, 176);
+    --glow-spread-color: rgba(255, 187, 123, 0.781);
+    --enhanced-glow-color: rgb(255, 226, 206);
+    --btn-color: rgb(136, 91, 61);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   .instagram::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .instagram:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   .instagram:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+   /* tiktok */
+.tiktok {
+    --glow-color: rgb(252, 82, 82);
+    --glow-spread-color: rgba(248, 64, 64, 0.781);
+    --enhanced-glow-color: rgb(247, 71, 71);
+    --btn-color: rgb(9, 5, 12);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    
+   }
+   
+   .tiktok::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .tiktok:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   .tiktok:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+body{
+    background-color: bisque;
+}
